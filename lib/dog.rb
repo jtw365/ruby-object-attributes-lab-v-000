@@ -8,5 +8,5 @@ class Dog
   end
 
   def name
-    "#{@name}"
+    "#{@name}".strip
 end
